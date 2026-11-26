@@ -1,0 +1,31 @@
+candidate_id,benchmark,score_percent,published_at,evaluation_conditions,comparability_note
+DEEPSEEK_V41_FLASH,GPQA Diamond,90.9,2026-09,Без инструментов; режим рассуждений DeepSeek,Самоотчёт / агрегаторы; сопоставимо с оговоркой протокола
+DEEPSEEK_V41_FLASH,DeepSWE v1.1,74.2,2026-09,Агентский программный стенд,Программная инженерия (не прямое измерение Test IT)
+DEEPSEEK_V41_FLASH,Terminal-Bench 2.1,90.6,2026-09,Агентская среда терминала,Высокая точность следования многошаговым инструкциям
+DEEPSEEK_V4_PRO,GPQA Diamond,91.7,2026-08,Чекпоинт 0813 (в макс. конфигурации до 92.8%),Высокий уровень логического вывода
+DEEPSEEK_V4_PRO,SWE-bench Verified,77.6,2026-08,Независимый harness (в макс. траекториях выше),Исправление реальных программных задач
+QWEN4_MAX,DeepSWE,75.7,2026-11,Агентский программный стенд,Близко к DeepSeek V4.1 Flash
+QWEN4_MAX,APEX-Agents v1.1,72.1,2026-11,Длинно-горизонтное агентское планирование,Сильная сторона архитектуры Qwen4 (71B актив.)
+QWEN4_MAX,Terminal-Bench 4.0,48.5,2026-11,Новый усложнённый стенд терминала,Уступает западным флагманам в сырых shell-средах
+GLM_53,Terminal-Bench 2.1,88.0,2026-08,Thinking enabled,Сопоставимо с топовыми открытыми моделями
+GLM_53,DeepSWE v1.1,67.0,2026-08,Thinking enabled,Агентская разработка
+GLM_53,Terminal-Bench 3.0,28.3,2026-08,Усложнённый асинхронный стенд,Выше Kimi K3 (17.4%) на асинхронных задачах
+KIMI_K31_PRO,Terminal-Bench 2.1,88.0,2026,Агентский стенд,На уровне GLM-5.3
+KIMI_K31_PRO,SWE-Marathon,48.1,2026,Длинные многофайловые задачи,Опережает GLM-5.3 (42.5%) на сверхдлинных контекстах
+QWEN38_27B_LOCAL,GPQA Diamond,89.2,2026,Thinking mode; данные каталога/HF,Обогнала старую облачную GPT-OSS 120B (80.1%)
+QWEN38_27B_LOCAL,LiveCodeBench v6,90.3,2026,Соревновательное и прикладное программирование,Высокая точность формальных условий
+QWEN38_27B_LOCAL,IFEval,91.0,2026,Строгое следование формату (свыше 91%),Критично для схемы Test IT (18 столбцов)
+QWEN36_35B_A3B_LOCAL,SWE-bench Verified,73.4,2026-04,3B активных параметров (MoE),Высокая скорость на 1 GPU 24 ГБ
+GEMINI_4_CARBON,GPQA Diamond,96.0,2026-10,Диапазон 95.5-96.8% в карточках и обзорах,Эталонная логика (указана середина интервала 96.0%)
+GEMINI_4_CARBON,Terminal-Bench 4.0,65.2,2026-10,Агентский стенд нового поколения,Заметно выше китайских моделей на Terminal-Bench 4.0
+GPT_62_SOL,GPQA Diamond,96.0,2026-11,Оценка OpenAI (~96% для Sol),Максимальная логика среднего ценового класса США
+GPT_62_ASTRA,GPQA Diamond,97.0,2026-11,Оценка OpenAI (max effort),Абсолютный потолок логики ноября 2026
+GPT_62_ASTRA,FrontierCode 2.0,44.2,2026-11,Новое поколение сложных кодовых задач,Высокая стоимость ($8/$40)
+CLAUDE_SONNET_55,GPQA Diamond,93.5,2026-09,Оценка линейки Claude 5.5 (93-95%),Сбалансированный западный рабочий стандарт
+CLAUDE_SONNET_55,Terminal-Bench 4.0,70.6,2026-09,Peak adaptive thinking,Один из лучших показателей агентского терминала
+CLAUDE_OPUS_55,GPQA Diamond,94.5,2026-09,Оценка линейки Claude 5.5 (93-95%),Высокая точность анализа
+CLAUDE_OPUS_55,FrontierCode 2.0,45.5,2026-09,Max effort,Незначительно выше GPT-6.2 Astra (44.2%)
+GPT_OSS_120B_OLD,GPQA Diamond,80.1,2025-08,No tools; reasoning high (OpenAI ref.),Устаревший уровень: на 10.8 п.п. ниже DeepSeek V4.1 Flash
+GPT_OSS_120B_OLD,SWE-bench Verified,62.4,2025-08,OpenAI reference scaffold,На 15.2 п.п. ниже DeepSeek V4 Pro
+GEMINI_31_PRO_OLD,GPQA Diamond,94.3,2026-02,No tools; thinking high,Хорошая логика, но вытеснена Gemini 4 и дешевле DeepSeek V4 Pro
+GEMINI_31_PRO_OLD,SWE-bench Verified,80.6,2026-02,Single attempt; thinking high,Справочно из февральской карточки модели

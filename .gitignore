@@ -1,0 +1,11 @@
+# Python / OS / Scratch
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.tmp
+.env
